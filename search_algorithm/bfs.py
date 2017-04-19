@@ -18,6 +18,7 @@ graph['s3'] = []
 
 def is_finish_search(vertex):
     # 判断当前搜索顶点是否为终点
+    # 这里判断终点的条件可以自定义
     if vertex == 's2':
         return True
 
