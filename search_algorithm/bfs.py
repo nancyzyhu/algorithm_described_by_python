@@ -29,7 +29,7 @@ def bsf(vertex, graph):
     """
     实现广度优先搜索算法
     :param vertex: 起始顶点
-    :param graph: 搜索
+    :param graph: 图
     :return:
     """
     search_vertexes = collections.deque()
