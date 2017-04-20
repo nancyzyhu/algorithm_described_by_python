@@ -30,7 +30,7 @@ def _create_costs_dict(from_vertex, graph_dict):
     """
     生成起点到其他顶点的最短路径
     :param from_vertex:
-    :param graph_dict:
+    :param graph_dict: 图
     :return:
     {'vertex': cost}
     """
